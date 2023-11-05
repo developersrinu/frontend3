@@ -58,7 +58,7 @@ function UserCard({ userData }) {
   };
 
   return (
-    <Card style={{ width: "18rem", marginRight: "20px" }}>
+    <Card style={{ width: "18rem", marginRight: "20px", margin:"30px" }}>
       <Card.Body>
         <Card.Title>{userData.name}</Card.Title>
         <Card.Text>{userData.username}</Card.Text>

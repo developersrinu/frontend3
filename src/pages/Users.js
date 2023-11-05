@@ -27,7 +27,7 @@ function Users() {
   return (
     <div>
       <h1 style={{ textAlign: "center", margin: "20px" }}>Users</h1>
-      <div style={{ padding: "20px", display: "flex" }}>
+      <div style={{padding: "20px", display: "flex" ,flexWrap:"wrap",justifyContent:"center"}}>
         {users?.map((user) => (
           <UserCard userData={user} />
         ))}
